@@ -1,3 +1,9 @@
+물론이지! 아래는 바로 복사해서 `README.md`로 저장하면 GitHub에서 **완벽하게 예쁘게 렌더링되는 최종 버전**이야.
+**추가 설명 없이 그대로 복붙해서 쓰면 돼.**
+
+---
+
+````markdown
 # 🧠 MBTI 성격유형 검사 앱 (WPF 기반)
 
 이 프로젝트는 WPF(Windows Presentation Foundation)를 활용하여 개발된 **MBTI 성격유형 GUI 애플리케이션**입니다.  
@@ -17,12 +23,12 @@
 
 ## 🖥️ 실행 환경
 
-| 항목 | 설명 |
-|------|------|
-| 운영체제 | Windows 10 이상 |
-| .NET SDK | [.NET 6.0 SDK + Windows Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) |
-| 개발도구 | Visual Studio Code 또는 Visual Studio 2022 |
-| 언어 | C#, XAML |
+| 항목       | 설명                                                                                   |
+|------------|----------------------------------------------------------------------------------------|
+| 운영체제   | Windows 10 이상                                                                         |
+| .NET SDK   | [.NET 6.0 SDK + Windows Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) |
+| 개발도구   | Visual Studio Code 또는 Visual Studio 2022                                              |
+| 언어       | C#, XAML                                                                                |
 
 ---
 
@@ -38,8 +44,13 @@ cd MBTI
 
 # 3. 실행
 dotnet run --project mbti.csproj
+````
 
-📁 프로젝트 구조
+---
+
+## 📁 프로젝트 구조
+
+```
 MBTI/
 ├── App.xaml                  # 앱 진입점
 ├── MainWindow.xaml          # 메인 화면
@@ -50,21 +61,31 @@ MBTI/
 │   └── main.jpg             # 배경 이미지
 ├── mbti.csproj              # 프로젝트 설정
 └── Properties/
+```
 
-🛠 사용 기술 스택
-WPF (.NET 6.0)
+---
 
-C# + XAML
+## 🛠 사용 기술 스택
 
-Visual Studio / VSCode
+* WPF (.NET 6.0)
+* C# + XAML
+* Visual Studio / VSCode
+* Windows Desktop Runtime
+* GitHub 연동
 
-Windows Desktop Runtime
+---
 
-GitHub 연동
+## 🧑‍💻 개발자
 
-🧑‍💻 개발자
-GitHub: @leeseoyang
+* GitHub: [@leeseoyang](https://github.com/leeseoyang)
+* 만든 목적: 교내 WPF 실습 + 개인 프로젝트 포트폴리오
 
-만든 목적: 교내 WPF 실습 + 개인 프로젝트 포트폴리오
+---
 
-⭐️ 이 프로젝트가 도움이 되셨다면 Star 눌러주세요!
+## ⭐️ Star 부탁드려요!
+
+> 이 프로젝트가 도움이 되셨다면 상단 오른쪽 `⭐ Star`를 눌러주시면 큰 힘이 됩니다!
+
+```
+
+---
