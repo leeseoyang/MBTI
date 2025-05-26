@@ -1,0 +1,60 @@
+﻿<Window x:Class="mbti.INTP"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mbti"
+        mc:Ignorable="d"
+        Title="Opal" Height="600" Width="400">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <TextBlock Height="25" Background="DarkOrange" FontWeight="Bold" FontSize="22" FontFamily="Font/#KOTRA HOPE">성격 해시태그 심리테스트</TextBlock>
+            <TextBlock Height="25" Background="White" FontWeight="Bold" FontSize="18" FontFamily="Font/#KOTRA HOPE">#인간관계</TextBlock>
+            <TextBlock Height="80" Background="Orange" FontSize="16" FontFamily="Font/#KOTRA HOPE">
+<Span>가까운 사이일 수록 현실적인 팩폭과 직설적인 조언을 함. 외로움을</Span>
+<LineBreak/>
+<Span>잘 타지 않아 소수의 사람들과의 맺는 인간관계를 선호하며</Span>
+<LineBreak/>
+<Span>내 사람이라고 생각된 사람은 그 사람에 대해 분석하고</Span>
+<LineBreak/>
+<Span>학습해서 대함</Span>
+            </TextBlock>
+            <TextBlock Height="25" Background="White" FontSize="18" FontFamily="Font/#KOTRA HOPE" FontWeight="Bold">#평소모습</TextBlock>
+            <TextBlock Height="50" Background="Orange" FontSize="16" FontFamily="Font/#KOTRA HOPE">
+<Span>분석적임</Span>
+<LineBreak/>
+<Span>개인 주관이 뚜렷함</Span>
+            </TextBlock>
+            <TextBlock Height="25" Background="White" FontSize="18" FontFamily="Font/#KOTRA HOPE" FontWeight="Bold">#화났을 때</TextBlock>
+            <TextBlock Height="50" Background="Orange" FontSize="16" FontFamily="Font/#KOTRA HOPE">
+<Span>침묵을 유지하다가 한순간에 폭할 혹은 손절하는 편</Span>
+<LineBreak/>
+<Span>왜 화가 났는지 자신이 생각하는 말을 모두 뱉어냄</Span>
+            </TextBlock>
+            <TextBlock Height="25" Background="White" FontSize="18" FontFamily="Font/#KOTRA HOPE" FontWeight="Bold">#연애특징</TextBlock>
+            <TextBlock Height="80" Background="Orange" FontSize="16" FontFamily="Font/#KOTRA HOPE">
+<Span>누군가를 유심히 보다가 문득 호감에 빠지곤 함. 무조건적인 공감이나</Span>
+<LineBreak/>
+<Span>애정 표현을 잘 못 해 연인이 서운해하는 경우가 있음. 친구처럼 편한</Span>
+<LineBreak/>
+<Span>연애를 추구하는 편. 돌아다니는 데이트보다는 집에서 함께 취미를</Span>
+<LineBreak/>
+<Span>즐기는 데이트를 선호함</Span>
+            </TextBlock>
+            <TextBlock Height="25" Background="White" FontSize="18" FontFamily="Font/#KOTRA HOPE" FontWeight="Bold">#꼬시는 법</TextBlock>
+            <TextBlock Height="60" Background="Orange" FontSize="16" FontFamily="Font/#KOTRA HOPE">
+<Span>관심 분야를 알아낸 뒤 관련하여 알고 있는 지식이나 경험을 대화로</Span>
+<LineBreak/>
+<Span>나누면 좋음. 타인에게 잘 보이려는 모습보다 스스로에게 집중하는</Span>
+<LineBreak/>
+<Span>성실한 모습을 보이면 좋음</Span>
+            </TextBlock>
+            <TextBlock Height="25" Background="White" FontSize="18" FontFamily="Font/#KOTRA HOPE" FontWeight="Bold">#궁합</TextBlock>
+            <TextBlock Height="50" Background="Orange" FontSize="16" FontFamily="Font/#KOTRA HOPE">
+<Span>😍 - Amethyst, Moonstone</Span>
+<LineBreak/>
+<Span>😭 - Diamond, Pearl</Span>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>

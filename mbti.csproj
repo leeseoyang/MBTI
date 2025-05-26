@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- ✅ ApplicationDefinition 제거! (자동 포함됨) -->
+
+  <ItemGroup>
+    <Resource Include="images\main.jpg" />
+    <Resource Include="Font\KOTRA HOPE.ttf" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,60 @@
+﻿<Window x:Class="mbti.ISFJ"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mbti"
+        mc:Ignorable="d"
+        Title="Emerald" Height="600" Width="400">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <TextBlock Height="25" Background="SkyBlue" FontWeight="Bold" FontSize="22" FontFamily="Font/#KOTRA HOPE">성격 해시태그 심리테스트</TextBlock>
+            <TextBlock Height="25" Background="White" FontWeight="Bold" FontSize="18" FontFamily="Font/#KOTRA HOPE">#인간관계</TextBlock>
+            <TextBlock Height="80" Background="LightSkyBlue" FontSize="16" FontFamily="Font/#KOTRA HOPE">
+<Span>싫어하는 행동만 하지 않는다면 대부분의 사람들을 잘 지내는</Span>
+<LineBreak/>
+<Span>인간관계로 포함시킬 수 있음. 더 나아가 내 사람이라고 생각한</Span>
+<LineBreak/>
+<Span>사람에게는 평소와는 다른 장난치는 모습을 보이거나 섬세한</Span>
+<LineBreak/>
+<Span>디테일까지 기억하고 챙겨주는 다정한 모습을 보임</Span>
+            </TextBlock>
+            <TextBlock Height="25" Background="White" FontSize="18" FontFamily="Font/#KOTRA HOPE" FontWeight="Bold">#평소모습</TextBlock>
+            <TextBlock Height="50" Background="LightSkyBlue" FontSize="16" FontFamily="Font/#KOTRA HOPE">
+<Span>관찰력이 뛰어남</Span>
+<LineBreak/>
+<Span>남을 잘 챙겨줌</Span>
+            </TextBlock>
+            <TextBlock Height="25" Background="White" FontSize="18" FontFamily="Font/#KOTRA HOPE" FontWeight="Bold">#화났을 때</TextBlock>
+            <TextBlock Height="50" Background="LightSkyBlue" FontSize="16" FontFamily="Font/#KOTRA HOPE">
+<Span>이유가 있겠거니 하고 계속 인내하는 편</Span>
+<LineBreak/>
+<Span>개선의 여지가 보이지 않는다면 조용히 인간관계를 정리함</Span>
+            </TextBlock>
+            <TextBlock Height="25" Background="White" FontSize="18" FontFamily="Font/#KOTRA HOPE" FontWeight="Bold">#연애특징</TextBlock>
+            <TextBlock Height="80" Background="LightSkyBlue" FontSize="16" FontFamily="Font/#KOTRA HOPE">
+<Span>연애를 시작하면 아낌없이 애정을 쏟고 자신보다도 연인을 우선시 함</Span>
+<LineBreak/>
+<Span>사소한 것까지 기억했다가 챙겨줌. 연락을 중요하게 생각해서 오래도록</Span>
+<LineBreak/>
+<Span>답장이 없으면 걱정하면서도 서운해 함. 헌신적인 성격으로 이별을</Span>
+<LineBreak/>
+<Span>맞이할 때 많이 힘들어 하는 편</Span>
+            </TextBlock>
+            <TextBlock Height="25" Background="White" FontSize="18" FontFamily="Font/#KOTRA HOPE" FontWeight="Bold">#꼬시는 법</TextBlock>
+            <TextBlock Height="55" Background="LightSkyBlue" FontSize="16" FontFamily="Font/#KOTRA HOPE">
+<Span>칭찬을 아끼지 않고 연락 등으로 적극적인 관심을 표현해주면 좋음</Span>
+<LineBreak/>
+<Span>미래에 대해 고민하고 자기관리에 신경쓰는 어른스러운 </Span>
+<LineBreak/>
+<Span>모습을 어필하면 좋음</Span>
+            </TextBlock>
+            <TextBlock Height="25" Background="White" FontSize="18" FontFamily="Font/#KOTRA HOPE" FontWeight="Bold">#궁합</TextBlock>
+            <TextBlock Height="50" Background="LightSkyBlue" FontSize="16" FontFamily="Font/#KOTRA HOPE">
+<Span>😍 - White rainbow, Cristal</Span>
+<LineBreak/>
+<Span>😭 - Ruby, Aquamarine</Span>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
