@@ -1,34 +1,45 @@
-물론이지! 아래는 바로 복사해서 `README.md`로 저장하면 GitHub에서 **완벽하게 예쁘게 렌더링되는 최종 버전**이야.
-**추가 설명 없이 그대로 복붙해서 쓰면 돼.**
+<p align="center">
+  <img src="images/banner.jpg" alt="MBTI Banner" width="800"/>
+</p>
+
+# 🧠 MBTI 성격유형 검사 앱 (WPF 기반)
+
+![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white)
+![WPF](https://img.shields.io/badge/WPF-68217A?style=flat&logo=windows&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=flat&logo=visualstudio&logoColor=white)
+
+이 프로젝트는 WPF(Windows Presentation Foundation)를 활용하여 개발된 **MBTI 성격유형 GUI 애플리케이션**입니다.  
+16가지 MBTI 유형별 결과 화면을 제공하며, 직관적인 사용자 경험을 위한 인터페이스를 갖추고 있습니다.
 
 ---
 
-````markdown
-# 🧠 MBTI 성격유형 검사 앱 (WPF 기반)
+## 📸 실행 화면
 
-이 프로젝트는 WPF(Windows Presentation Foundation)를 활용하여 개발된 **MBTI 성격유형 GUI 애플리케이션**입니다.  
-각 MBTI 유형(총 16가지)에 따라 결과 화면이 다르게 구성되어 있으며, 직관적인 UI로 성격유형을 확인할 수 있습니다.
+<p align="center">
+  <img src="images/demo.jpg" alt="앱 실행 화면" width="600"/>
+</p>
 
 ---
 
 ## 🎯 주요 기능
 
-- ✅ 16가지 MBTI 유형별 결과 화면 (`ENFP.xaml`, `INTJ.xaml` 등)
-- ✅ `MainWindow.xaml`에서 시작되는 GUI 기반 인터페이스
-- ✅ XAML을 활용한 페이지 이동 및 라우팅
-- ✅ 배경 이미지 및 한글 폰트(KOTRA HOPE.ttf) 적용
-- ✅ `.NET 6.0` 기반으로 경량화된 배포 가능
+- 16가지 MBTI 유형별 결과 창 제공 (ENFP, INTJ 등)
+- MainWindow → 각 유형별 XAML로 라우팅
+- WPF + XAML 기반 GUI
+- 한글 폰트(KOTRA HOPE) 적용
+- 이미지 리소스 포함, 직관적인 UI 구성
 
 ---
 
 ## 🖥️ 실행 환경
 
-| 항목       | 설명                                                                                   |
-|------------|----------------------------------------------------------------------------------------|
-| 운영체제   | Windows 10 이상                                                                         |
-| .NET SDK   | [.NET 6.0 SDK + Windows Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) |
-| 개발도구   | Visual Studio Code 또는 Visual Studio 2022                                              |
-| 언어       | C#, XAML                                                                                |
+| 항목 | 설명 |
+|------|------|
+| 운영체제 | Windows 10 이상 |
+| 프레임워크 | [.NET 6.0 + Windows Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) |
+| 개발툴 | Visual Studio / VS Code |
+| 언어 | C#, XAML |
 
 ---
 
@@ -58,7 +69,8 @@ MBTI/
 ├── Font/
 │   └── KOTRA HOPE.ttf       # 한글 폰트
 ├── images/
-│   └── main.jpg             # 배경 이미지
+│   └── banner.jpg           # 배너 이미지
+│   └── demo.jpg             # 실행 화면
 ├── mbti.csproj              # 프로젝트 설정
 └── Properties/
 ```
@@ -82,6 +94,29 @@ MBTI/
 
 ---
 
-## ⭐️ Star 부탁드려요!
+## 📜 라이선스
 
-> 이 프로젝트가 도움이 되셨다면 상단 오른쪽 `⭐ Star`를 눌러주시면 큰 힘이 됩니다!
+이 프로젝트는 [MIT License](https://opensource.org/licenses/MIT)를 따릅니다.
+자유롭게 사용, 수정, 배포하되 반드시 출처를 남겨주세요.
+
+---
+
+## 💬 기여 및 문의
+
+이 프로젝트에 대한 의견, 제안, 버그 제보는 언제든지 환영합니다!
+아래 방법으로 문의하거나 GitHub Issue / Pull Request로 참여해주세요.
+
+📧 이메일: [23615038@konyang.ac.kr](mailto:23615038@konyang.ac.kr)
+🐙 GitHub: [@leeseoyang](https://github.com/leeseoyang)
+
+---
+
+## 📦 다운로드
+
+* 👉 [최신 실행파일 받기 (Releases)](https://github.com/leeseoyang/MBTI/releases)
+* 또는 직접 클론 후 빌드해서 사용해주세요.
+
+---
+
+> ⭐️ 이 프로젝트가 도움이 되셨다면 상단 오른쪽 `⭐ Star`를 눌러주시면 큰 힘이 됩니다!
+
